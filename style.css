@@ -11,30 +11,22 @@
 
     
   }
+ 
   .hero-img{
-    background-image: url(./assect/IMG_8679.PNG);
-    width: 40%;
-
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50px;
-    left: 400px;
+    width: 100%;
+ 
   }
-  @media screen and (max-width:600px) {
-    .hero-img{
-      background-image: url(./assect/IMG_8679.PNG);
-      width: 90%;
-  
-      height: 80vh;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      top: 50px;
-      left: 20px;
+  .hero-img img{
+    width: 50%;
+  }
+  @media screen and (max-width:700px) {
+    .hero-img img{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .main-section {
+     height: 70vh;
     }
   }
   .hero-section{
@@ -74,6 +66,35 @@
     padding-top: 40px;
     line-height: 6vh;
 
+  }
+  /* media query */
+  @media screen and (max-width:700px) {
+    .hero-content h2{
+      margin: 0;
+      color: rgba(233, 233, 70, 0.747);
+      font-size: 45px;
+      text-transform: capitalize;
+    }
+    .hero-content h4{
+      margin: 0;
+      color: rgba(233, 233, 70, 0.747);
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+    
+  }
+  @media screen and (max-width:700px) {
+    .hero-content .para{
+      margin: 0;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 40px;
+    line-height: 4vh;
+    }
   }
   .inputs{
     display: flex;
@@ -153,6 +174,12 @@ margin: 0;
     margin: 0;
     color: white;
   }
+  /* ,edia */
+  @media screen and (max-width:700px) {
+    .tokenomics h2{
+     font-size: 45px;
+    }
+  }
   /*  */
 
 .Card_change1::after {
@@ -210,6 +237,17 @@ margin: 0;
   padding-top: 50px;
   text-align: center;
 }
+/* media query */
+@media screen and (max-width:700px) {
+  .roadmap h2{
+    margin: 0;
+    color: rgba(233, 233, 70, 0.747);
+    font-size: 45px;
+    text-transform: capitalize;
+  }
+ 
+  
+}
 /* footer */
 .footer-imgs{
   width: 20%;
@@ -229,4 +267,21 @@ margin: 0;
   margin: 0 auto;
   text-align: left;
   font-size: 18px;
+}
+/* media query */
+@media screen and (max-width:700px) {
+  .footer-imgs{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+  
+  }
+ 
+  .footer p{
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+  }
 }
