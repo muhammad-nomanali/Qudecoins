@@ -54,6 +54,7 @@
     color: rgba(233, 233, 70, 0.747);
     font-size: 70px;
     text-transform: capitalize;
+    font-weight: 700;
   }
   .hero-content h4{
     margin: 0;
@@ -69,7 +70,7 @@
     text-transform: capitalize;
     width: 60%;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     padding-top: 40px;
     line-height: 6vh;
 
@@ -98,7 +99,7 @@
     text-transform: capitalize;
     width: 90%;
     margin: 0 auto;
-    text-align: left;
+
     padding-top: 40px;
     line-height: 4vh;
     }
