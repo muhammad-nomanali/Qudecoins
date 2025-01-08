@@ -70,7 +70,7 @@
     text-transform: capitalize;
     width: 60%;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     padding-top: 40px;
     line-height: 6vh;
 
@@ -95,13 +95,13 @@
     .hero-content .para{
       margin: 0;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: capitalize;
     width: 90%;
     margin: 0 auto;
 
     padding-top: 40px;
-    line-height: 4vh;
+    line-height: 3vh;
     }
   }
   .inputs{
@@ -289,7 +289,7 @@ margin: 0;
     color: white;
     width: 100%;
     margin: 0 auto;
-  text-align: center;
+  text-align: justify;
     font-size: 16px;
   }
 }
